@@ -1,0 +1,86 @@
+
+/* ----------- */
+/* Base Styles */
+/* ----------- */
+
+.wrapper {
+	margin: 2rem auto;
+	max-width: 800px;
+}
+
+
+
+/* ---------- */
+/* Box Colors */
+/* ---------- */
+	
+.box-blue {
+	background-color: #27689e;
+}
+
+.box-red {
+	background-color: #d55b55;
+}
+
+.box-yellow {
+	background-color: #dabd5b;
+}
+
+.box-green {
+	background-color: #ffde17;
+}
+
+
+
+/* ---------- */
+/* Box Sizes */
+/* ---------- */
+
+.box-square-small {
+
+}
+
+.box-square-large {
+	height: 300px;
+	width: 300px;
+}
+
+.box-rect-small {
+
+}
+
+.box-rect-large {
+
+}
+
+
+
+/* --------------- */
+/* Box Positioning */
+/* --------------- */
+
+.box-left {
+
+}
+
+.box-right {
+
+}
+
+
+
+
+/* ------- */
+/* Utility */
+/* ------- */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
